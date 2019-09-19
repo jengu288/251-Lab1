@@ -5,7 +5,17 @@ using namespace std; //use namespace std
 class Student
 {
 public:
+
 private:
     string firstName;
     string lastName;
+    float cgpa;
+    int researchScore;
+};
+
+class DomesticStudent : public Student
+{
+public:
+private:
+    
 };
