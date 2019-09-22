@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download
+# Install script for directory: /Users/Aliyah/CLionProjects/251-Lab1-Conor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

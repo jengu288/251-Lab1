@@ -7,5 +7,4 @@ include_directories(.)
 
 add_executable(lab1_download
         main.cpp
-        student.cpp
-        student.hpp)
+        student.cpp)

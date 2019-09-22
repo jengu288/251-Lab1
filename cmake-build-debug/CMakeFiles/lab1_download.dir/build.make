@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download"
+CMAKE_SOURCE_DIR = /Users/Aliyah/CLionProjects/251-Lab1-Conor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab1_download.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/lab1_download.dir/flags.make
 
 CMakeFiles/lab1_download.dir/main.cpp.o: CMakeFiles/lab1_download.dir/flags.make
 CMakeFiles/lab1_download.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab1_download.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_download.dir/main.cpp.o -c "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab1_download.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_download.dir/main.cpp.o -c /Users/Aliyah/CLionProjects/251-Lab1-Conor/main.cpp
 
 CMakeFiles/lab1_download.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1_download.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/main.cpp" > CMakeFiles/lab1_download.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Aliyah/CLionProjects/251-Lab1-Conor/main.cpp > CMakeFiles/lab1_download.dir/main.cpp.i
 
 CMakeFiles/lab1_download.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1_download.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/main.cpp" -o CMakeFiles/lab1_download.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Aliyah/CLionProjects/251-Lab1-Conor/main.cpp -o CMakeFiles/lab1_download.dir/main.cpp.s
 
 CMakeFiles/lab1_download.dir/student.cpp.o: CMakeFiles/lab1_download.dir/flags.make
 CMakeFiles/lab1_download.dir/student.cpp.o: ../student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab1_download.dir/student.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_download.dir/student.cpp.o -c "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/student.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab1_download.dir/student.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1_download.dir/student.cpp.o -c /Users/Aliyah/CLionProjects/251-Lab1-Conor/student.cpp
 
 CMakeFiles/lab1_download.dir/student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1_download.dir/student.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/student.cpp" > CMakeFiles/lab1_download.dir/student.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Aliyah/CLionProjects/251-Lab1-Conor/student.cpp > CMakeFiles/lab1_download.dir/student.cpp.i
 
 CMakeFiles/lab1_download.dir/student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1_download.dir/student.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/student.cpp" -o CMakeFiles/lab1_download.dir/student.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Aliyah/CLionProjects/251-Lab1-Conor/student.cpp -o CMakeFiles/lab1_download.dir/student.cpp.s
 
 # Object files for target lab1_download
 lab1_download_OBJECTS = \
@@ -95,7 +95,7 @@ lab1_download: CMakeFiles/lab1_download.dir/main.cpp.o
 lab1_download: CMakeFiles/lab1_download.dir/student.cpp.o
 lab1_download: CMakeFiles/lab1_download.dir/build.make
 lab1_download: CMakeFiles/lab1_download.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab1_download"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab1_download"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab1_download.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/lab1_download.dir/clean:
 .PHONY : CMakeFiles/lab1_download.dir/clean
 
 CMakeFiles/lab1_download.dir/depend:
-	cd "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download" "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download" "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/cmake-build-debug" "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/cmake-build-debug" "/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/cmake-build-debug/CMakeFiles/lab1_download.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Aliyah/CLionProjects/251-Lab1-Conor /Users/Aliyah/CLionProjects/251-Lab1-Conor /Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug /Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug /Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug/CMakeFiles/lab1_download.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab1_download.dir/depend
 

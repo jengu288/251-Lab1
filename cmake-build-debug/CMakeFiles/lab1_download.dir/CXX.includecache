@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/main.cpp
+/Users/Aliyah/CLionProjects/251-Lab1-Conor/main.cpp
 iostream
 -
 fstream
@@ -16,13 +16,13 @@ sstream
 cstdlib
 -
 student.hpp
-/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/student.hpp
+/Users/Aliyah/CLionProjects/251-Lab1-Conor/student.hpp
 
-/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/student.cpp
+/Users/Aliyah/CLionProjects/251-Lab1-Conor/student.cpp
 student.hpp
-/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/student.hpp
+/Users/Aliyah/CLionProjects/251-Lab1-Conor/student.hpp
 
-/Users/jengu/Desktop/ENSC 251/Labs/Lab1/lab1-download/student.hpp
+/Users/Aliyah/CLionProjects/251-Lab1-Conor/student.hpp
 string
 -
 
