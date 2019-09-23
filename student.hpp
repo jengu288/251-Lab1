@@ -7,7 +7,9 @@ using namespace std;
 class ToeflScore
 {
 public:
+    //TODO: input function call checkScore inside
 private:
+    void checkScore();
     int reading;
     int listening;
     int speaking;
@@ -25,6 +27,9 @@ public:
     float getCGPA();
     int getresearchScore();
 private:
+    void checkCGPA();
+    void checkresearchScore();
+
     string firstName;
     string lastName;
     float cgpa;
