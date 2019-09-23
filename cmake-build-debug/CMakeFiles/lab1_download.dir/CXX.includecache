@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/Aliyah/CLionProjects/251-Lab1-Conor/main.cpp
-iostream
--
-fstream
--
-sstream
--
-cstdlib
--
-student.hpp
-/Users/Aliyah/CLionProjects/251-Lab1-Conor/student.hpp
-
 /Users/Aliyah/CLionProjects/251-Lab1-Conor/student.cpp
 student.hpp
 /Users/Aliyah/CLionProjects/251-Lab1-Conor/student.hpp
