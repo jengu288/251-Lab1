@@ -97,3 +97,31 @@ ToeflScore InternationalStudent::getToefl(){
     return Toefl;
 }
 
+//---------------------------------------------------------
+//Function Name: getScore()
+//Author: Jennifer Gu
+//Date Created: September 19, 2019
+//Date Update:
+//Inputs: object of class student
+//Outputs:  void
+//Purpose: Checks if Toefl Score is valid
+//---------------------------------------------------------
+void ToeflScore::checkScore(){
+    //TODO:Code ToeflScore Checker, each parameter is an int 0-30
+}
+
+void Student::checkCGPA() {
+    //TODO:Code cgpa checker, needs to be sfu 4.3 scale valid
+    if (cgpa < 0 || cgpa > 4.3){
+
+    }
+}
+
+
+void Student::checkresearchScore() {
+    //TODO: Code researchScore checker, needs to be 0-100 integers only
+    if (researchScore < 0 || researchScore > 100){
+
+    }
+}
+
