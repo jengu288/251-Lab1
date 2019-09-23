@@ -1,6 +1,7 @@
 //student.cpp to implement classes
 #include "student.hpp"
 #include <iostream>
+#include <string>
 using namespace std;
 
 //---------------------------------------------------------
@@ -123,5 +124,49 @@ void Student::checkresearchScore() {
     if (researchScore < 0 || researchScore > 100){
 
     }
+}
+//Default Constructors
+ToeflScore::ToeflScore() {
+
+}
+
+Student::Student() {
+
+}
+
+DomesticStudent::DomesticStudent()
+:Student()
+{
+
+}
+
+InternationalStudent::InternationalStudent()
+:Student()
+{
+
+}
+
+//TODO:Constructors
+ToeflScore::ToeflScore(int reading, int listening, int speaking, int writing){
+
+}
+
+Student::Student(string firstName, string lastName, float cgpa, int researchScore) {
+    firstName = firstName;
+    lastName = lastName;
+    cgpa = cgpa;
+    researchScore = researchScore;
+}
+
+DomesticStudent::DomesticStudent(string firstName, string lastName, float cgpa, int researchScore, string province)
+                :Student(firstName, lastName, cgpa, researchScore)
+{
+    province = province;
+
+}
+
+InternationalStudent::InternationalStudent(string firstName, string lastName, float cgpa, int reasearchScore,
+                                           string country, ToeflScore Toefl) {
+
 }
 

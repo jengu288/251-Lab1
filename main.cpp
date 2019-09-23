@@ -4,6 +4,7 @@
 #include <fstream> //file processing
 #include <sstream> //formatted string processing
 #include <cstdlib> //atof and atoi
+#include <string>
 #include "student.hpp"
 
 
@@ -105,8 +106,9 @@ int main(){
 
         stu_count++;
     }
-
-
+DomesticStudent test("bob", "dylan", 3.4, 5, "BC");
+string test1 = test.getProvince();
+cout << test1 << endl <<"test";
 //close your file
     domesticFile.close();
 
