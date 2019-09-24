@@ -14,7 +14,7 @@ public:
     ToeflScore(); //---default
     ToeflScore(int reading, int listening, int speaking, int writing); //--fully initializes
     //can i change the above line's parameters to red, write, speak and listen for clarity on whats in the private section
-    void setScore();
+    void setScore(int newReading, int newListening, int newSpeaking, int newWriting);
 private:
     bool checkScore(int newReading, int newListening, int newSpeaking, int newWriting);
     int reading;

@@ -13,6 +13,7 @@ public:
     DomesticStudent(string firstName, string lastName, float cgpa, int researchScore,
                     string province);
     string getProvince();
+    void setProvince(string newProvince);
 private:
     string province;
 };

@@ -4,11 +4,11 @@
 
 #include "includes/DomesticStudent.h"
 
-DomesticStudent::DomesticStudent(string firstName, string lastName, float cgpa, int researchScore,
-                                 string province)
-        :Student(firstName, lastName, cgpa, researchScore)
+DomesticStudent::DomesticStudent(string newFirstName, string newLastName, float newCgpa, int newResearchScore,
+                                 string newProvince)
+        :Student(newFirstName, newLastName, newCgpa, newResearchScore)
 {
-    province = province;
+    province = newProvince;
 
 }
 
@@ -29,4 +29,9 @@ DomesticStudent::DomesticStudent()
 string DomesticStudent::getProvince(){
 
     return province;
+}
+
+void DomesticStudent::setProvince(string newProvince)
+{
+    province=newProvince;
 }

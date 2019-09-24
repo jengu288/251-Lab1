@@ -66,4 +66,5 @@ void ToeflScore::setScore(int newReading, int newListening, int newSpeaking, int
         listening = newListening;
         speaking = newSpeaking;
         writing = newWriting;
+    }
 }
