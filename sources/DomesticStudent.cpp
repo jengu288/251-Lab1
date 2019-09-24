@@ -2,7 +2,7 @@
 // Created by Aliyah N on 2019-09-23.
 //
 
-#include "DomesticStudent.h"
+#include "includes/DomesticStudent.h"
 
 DomesticStudent::DomesticStudent(string firstName, string lastName, float cgpa, int researchScore, string province)
         :Student(firstName, lastName, cgpa, researchScore)

@@ -1,7 +1,8 @@
 //student.cpp to implement classes
-#include "includes/student.h"
 #include <iostream>
 #include <string>
+#include <student.h>
+
 using namespace std;
 
 //---------------------------------------------------------
