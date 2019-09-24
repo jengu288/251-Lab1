@@ -58,17 +58,8 @@ int Student::getresearchScore(){
 }
 
 
-//---------------------------------------------------------
-//Function Name: getCountry()
-//Author: Jennifer Gu
-//Date Created: September 19, 2019
-//Date Update:
-//Inputs: object of class student
-//Outputs:  string country
-//Purpose: Retrieves the country member of the International Student Object
-//---------------------------------------------------------
 
-
+//checks if the gpa is a valid value
 void Student::checkCGPA() {
     //TODO:Code cgpa checker, needs to be sfu 4.3 scale valid
     if (cgpa < 0 || cgpa > 4.3)
@@ -78,7 +69,7 @@ void Student::checkCGPA() {
     }
 }
 
-
+//checks if the research score has a valid value
 void Student::checkresearchScore() {
     //TODO: Code researchScore checker, needs to be 0-100 integers only
     if (researchScore < 0 || researchScore > 100)
@@ -87,19 +78,16 @@ void Student::checkresearchScore() {
         exit(1);
     }
 }
+
 //Default Constructors
-
-
 Student::Student() {
 
 }
 
 
-
-
 //TODO:Constructors
 
-
+//sets all the things
 Student::Student(string firstName, string lastName, float cgpa, int researchScore) {
     firstName = firstName;
     lastName = lastName;
@@ -109,6 +97,39 @@ Student::Student(string firstName, string lastName, float cgpa, int researchScor
 
 
 
+//---------------------------------------------------------
+//Function Name: setCGPA()
+//Author: Aliyah Nanji
+//Date Created: September 23, 2019
+//Date Update:
+//Inputs: object of class student
+//Outputs: void
+//Purpose:sets the value cgpa to cgpa
+//---------------------------------------------------------
+
+//setCGPA function
+//should we be using different names. i feel like this gets confusing
+void Student::setCGPA()
+{
+    checkCGPA();
+    cgpa=cgpa;
+}
+
+//---------------------------------------------------------
+//Function Name: setCGPA()
+//Author: Aliyah Nanji
+//Date Created: September 23, 2019
+//Date Update:
+//Inputs: object of class student
+//Outputs: void
+//Purpose:sets the value researchscore to researchscore
+//---------------------------------------------------------
+//same concern about confusion with the assignment?????
+void Student::setResearchScore()
+{
+    checkresearchScore();
+    researchScore=researchScore;
+}
 
 
 //Conor does not know what the hell was wrong, as everything worked perfectly fine without any problems

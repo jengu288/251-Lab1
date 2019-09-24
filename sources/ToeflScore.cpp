@@ -37,20 +37,25 @@ void ToeflScore::checkScore(){
         exit(1);
     }
 }
-
+//default constructor
 ToeflScore::ToeflScore() {
 
 }
+//regular constructor
+//TODO: get rid of error checking here (just delete). we have another error checking function we can call.
+
 
 ToeflScore::ToeflScore(int reading, int listening, int speaking, int writing)
 {
-    if (reading<0 || listening<0 || speaking<0 || writing<0||reading>30.2||listening>30.2||speaking>30.2||writing>30.2)
-    {
-        cout<<"Illegal Toefl Score. ";
-        exit (1);
-    }
+   // if (reading<0 || listening<0 || speaking<0 || writing<0||reading>30.2||listening>30.2||speaking>30.2||writing>30.2)
+    //{
+    //    cout<<"Illegal Toefl Score. ";
+    //    exit (1);
+    //}
+
     reading=reading;
     listening=listening;
     speaking=speaking;
     writing=writing;
 }
+

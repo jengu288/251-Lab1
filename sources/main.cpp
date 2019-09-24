@@ -35,7 +35,7 @@ int main(){
     }
     domesticFile.clear();
     domesticFile.seekg(0, ios::beg);
-    DomesticStudent fileDomestics[domestics];
+    DomesticStudent fileDomestics[5];
 
 //International Student list creation
     int internationals = -1;
@@ -44,7 +44,7 @@ int main(){
     }
     internationalFile.clear();
     internationalFile.seekg(0, ios::beg);
-    InternationalStudent fileInternationals[internationals];
+    InternationalStudent fileInternationals[5];
 
 //Generates a unique student ID for each student in the combined domestic and international files
     int totalStudents = domestics + internationals;

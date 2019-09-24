@@ -18,6 +18,9 @@ public:
     string getLastName();
     float getCGPA();
     int getresearchScore();
+    //added setCGPA and setReasearchScore
+    void setCGPA();
+    void setResearchScore();
 private:
     void checkCGPA();
     void checkresearchScore();
