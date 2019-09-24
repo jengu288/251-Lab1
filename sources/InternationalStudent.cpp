@@ -56,3 +56,16 @@ void InternationalStudent::setCountry(string newCountry)
 void InternationalStudent::setToefl (ToeflScore newToeflScore){
     Toefl=newToeflScore;
 }
+
+//---------------------------------------------------------
+//Function Name: InternationalInput()
+//Author: Aliyah Nanji
+//Date Created: September 23, 2019
+//Date Update:
+//Inputs: Toefl score with values of (new) Toefl score
+//Outputs:  void
+//Purpose: allows for setting of the new toefl score
+//---------------------------------------------------------
+void InternationalStudent::InternationalInput() {
+
+}
