@@ -21,12 +21,12 @@ ToeflScore InternationalStudent::getToefl(){
 }
 
 //---------------------------------------------------------
-//Function Name: getScore()
-//Author: Jennifer Gu
-//Date Created: September 19, 2019
+//Function Name: checkScore()
+//Author: Aliyah Nanji
+//Date Created: September 23, 2019
 //Date Update:
 //Inputs: object of class student
-//Outputs:  void
+//Outputs:  boolean value
 //Purpose: Checks if Toefl Score is valid
 //---------------------------------------------------------
 bool ToeflScore::checkScore(int newReading, int newListening, int newSpeaking, int newWriting){
@@ -46,9 +46,7 @@ bool ToeflScore::checkScore(int newReading, int newListening, int newSpeaking, i
 ToeflScore::ToeflScore() {
 
 }
-//regular constructor
-//TODO: get rid of error checking here (just delete). we have another error checking function we can call.
-
+//regular constructor, fully defined, deals with all parameters
 
 ToeflScore::ToeflScore(int newReading, int newListening, int newSpeaking, int newWriting)
 {
@@ -59,7 +57,15 @@ ToeflScore::ToeflScore(int newReading, int newListening, int newSpeaking, int ne
        writing = newWriting;
    }
 }
-
+//---------------------------------------------------------
+//Function Name: setScore()
+//Author: Aliyah Nanji
+//Date Created: September 23, 2019
+//Date Update:
+//Inputs: object of class student
+//Outputs:  string province
+//Purpose: allows for setting of the Toefl score
+//---------------------------------------------------------
 void ToeflScore::setScore(int newReading, int newListening, int newSpeaking, int newWriting) {
     if(checkScore(newReading, newListening, newSpeaking, newWriting)) {
         reading = newReading;

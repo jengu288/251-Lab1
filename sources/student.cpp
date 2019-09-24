@@ -58,8 +58,16 @@ int Student::getresearchScore(){
 }
 
 
+//---------------------------------------------------------
+//Function Name: checkCGPA();
+//Author: Aliyah Nanji
+//Date Created: September 23, 2019
+//Date Update:
+//Inputs: object of class student
+//Outputs:  boolean value
+//Purpose: Decides if GPA is a valid value
+//---------------------------------------------------------
 
-//checks if the gpa is a valid value
 bool Student::checkCGPA(float cCgpa) {
     //TODO:Code cgpa checker, needs to be sfu 4.3 scale valid
     if (cCgpa < 0 || cCgpa > 4.3)
@@ -73,7 +81,15 @@ bool Student::checkCGPA(float cCgpa) {
     }
 }
 
-//checks if the research score has a valid value
+//---------------------------------------------------------
+//Function Name: checkreasearchScore();
+//Author: Aliyah Nanji
+//Date Created: September 23, 2019
+//Date Update:
+//Inputs: object of class student
+//Outputs:  boolean value
+//Purpose: Decides if research score is a valid value
+//---------------------------------------------------------
 bool Student::checkresearchScore(int CresearchScore) {
     //TODO: Code researchScore checker, needs to be 0-100 integers only
     if (CresearchScore < 0 || CresearchScore > 100)
@@ -87,16 +103,32 @@ bool Student::checkresearchScore(int CresearchScore) {
         return true;
     }
 }
-
-//Default Constructors
+//---------------------------------------------------------
+//Function Name: Student();
+//Author: Aliyah Nanji
+//Date Created: September 23, 2019
+//Date Update:
+//Inputs:
+//Outputs:
+//Purpose: DEFAULT CONSTRUCTOR
+//---------------------------------------------------------
+//Default Constructor.
 Student::Student() {
 
 }
 
 
 //TODO:Constructors
-
-//sets all the things
+//---------------------------------------------------------
+//Function Name: checkreasearchScore();
+//Author: Aliyah Nanji
+//Date Created: September 23, 2019
+//Date Update:
+//Inputs: object of class student
+//Outputs:
+//Purpose: CONSTRUCTOR---INITIALIZES ALL VALUES
+//---------------------------------------------------------
+//constructor that initializes all values. sets all the things
 Student::Student(string newFirstName, string newLastName, float newCgpa, int newResearchScore) {
     firstName = newFirstName;
     lastName = newLastName;
@@ -113,11 +145,10 @@ Student::Student(string newFirstName, string newLastName, float newCgpa, int new
 //Date Update:
 //Inputs: object of class student
 //Outputs: void
-//Purpose:sets the value cgpa to cgpa
+//Purpose:sets the value cgpa to cgpa if its value is valid
 //---------------------------------------------------------
 
 //setCGPA function
-//should we be using different names. i feel like this gets confusing
 void Student::setCGPA(float new_cgpa)
 {
     if (checkCGPA(new_cgpa))
@@ -128,13 +159,13 @@ void Student::setCGPA(float new_cgpa)
 }
 
 //---------------------------------------------------------
-//Function Name: setCGPA()
+//Function Name: setReasearchScore()
 //Author: Aliyah Nanji
 //Date Created: September 23, 2019
 //Date Update:
 //Inputs: object of class student
 //Outputs: void
-//Purpose:sets the value researchscore to researchscore
+//Purpose:sets the value researchscore to researchscore if it's value is valid
 //---------------------------------------------------------
 
 void Student::setResearchScore(int new_researchScore) {

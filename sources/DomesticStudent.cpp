@@ -3,7 +3,7 @@
 //
 
 #include "includes/DomesticStudent.h"
-
+//fully defined. manages all parameters
 DomesticStudent::DomesticStudent(string newFirstName, string newLastName, float newCgpa, int newResearchScore,
                                  string newProvince)
         :Student(newFirstName, newLastName, newCgpa, newResearchScore)
@@ -11,7 +11,7 @@ DomesticStudent::DomesticStudent(string newFirstName, string newLastName, float 
     province = newProvince;
 
 }
-
+//default
 DomesticStudent::DomesticStudent()
         :Student()
 {
@@ -30,7 +30,15 @@ string DomesticStudent::getProvince(){
 
     return province;
 }
-
+//---------------------------------------------------------
+//Function Name: newProvince()
+//Author: Aliyah Nanji
+//Date Created: September 23, 2019
+//Date Update:
+//Inputs: object of class student
+//Outputs:  void
+//Purpose: allows you to set province value
+//---------------------------------------------------------
 void DomesticStudent::setProvince(string newProvince)
 {
     province=newProvince;
