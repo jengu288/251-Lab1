@@ -29,16 +29,19 @@ ToeflScore InternationalStudent::getToefl(){
 //Outputs:  void
 //Purpose: Checks if Toefl Score is valid
 //---------------------------------------------------------
-void ToeflScore::checkScore(){
+bool ToeflScore::checkScore(int newReading, int newListening, int newSpeaking, int newWriting){
     //TODO:Code ToeflScore Checker, each parameter is an int 0-30
-    if (reading<0 || reading>30 || listening<0 || listening>30 ||speaking<0 || speaking>30||writing<0 || writing>30)
+    if (newReading<0 || newReading>30 || newListening<0 || newListening>30 ||newSpeaking<0 || newSpeaking>30||newWriting<0 || newWriting>30)
     {
         cout<<"You have an invalid parameter for your Toefl Score.";
-        exit(1);
+        return false;
+    } else{
+        return true;
+        //should this also set? i think no???
     }
 
-
 }
+
 //default constructor
 ToeflScore::ToeflScore() {
 
@@ -47,17 +50,20 @@ ToeflScore::ToeflScore() {
 //TODO: get rid of error checking here (just delete). we have another error checking function we can call.
 
 
-ToeflScore::ToeflScore(int reading, int listening, int speaking, int writing)
+ToeflScore::ToeflScore(int newReading, int newListening, int newSpeaking, int newWriting)
 {
-   // if (reading<0 || listening<0 || speaking<0 || writing<0||reading>30.2||listening>30.2||speaking>30.2||writing>30.2)
-    //{
-    //    cout<<"Illegal Toefl Score. ";
-    //    exit (1);
-    //}
-
-    reading=reading;
-    listening=listening;
-    speaking=speaking;
-    writing=writing;
+   if(checkScore(newReading, newListening, newSpeaking, newWriting)) {
+       reading = newReading;
+       listening = newListening;
+       speaking = newSpeaking;
+       writing = newWriting;
+   }
 }
 
+void ToeflScore::setScore(int newReading, int newListening, int newSpeaking, int newWriting) {
+    if(checkScore(newReading, newListening, newSpeaking, newWriting)) {
+        reading = newReading;
+        listening = newListening;
+        speaking = newSpeaking;
+        writing = newWriting;
+}

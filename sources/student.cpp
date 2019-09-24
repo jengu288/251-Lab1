@@ -65,10 +65,11 @@ bool Student::checkCGPA(float cCgpa) {
     if (cCgpa < 0 || cCgpa > 4.3)
     {
         cout<<"you have an invalid cgpa.";
-        exit(1);
+        return false;
     }
     else{
         cgpa=cCgpa;
+        return true;
     }
 }
 
@@ -78,11 +79,12 @@ bool Student::checkresearchScore(int CresearchScore) {
     if (CresearchScore < 0 || CresearchScore > 100)
     {
         cout<<"you have an invalid research score.";
-        exit(1);
+        return false;
     }
     else
     {
         researchScore=CresearchScore;
+        return true;
     }
 }
 
@@ -95,11 +97,11 @@ Student::Student() {
 //TODO:Constructors
 
 //sets all the things
-Student::Student(string firstName, string lastName, float cgpa, int researchScore) {
-    firstName = firstName;
-    lastName = lastName;
-    cgpa = cgpa;
-    researchScore = researchScore;
+Student::Student(string newFirstName, string newLastName, float newCgpa, int newResearchScore) {
+    firstName = newFirstName;
+    lastName = newLastName;
+    cgpa = newCgpa;
+    researchScore = newResearchScore;
 }
 
 
