@@ -1,6 +1,7 @@
-#include <sources/includes/ToeflScore.h>
-#include "InternationalStudent.h"
 
+
+#include "includes/ToeflScore.h"
+#include "includes/InternationalStudent.h"
 
 //
 // Created by Aliyah N on 2019-09-23.

@@ -1,7 +1,7 @@
 //header file student.hpp to declare your classes
+#pragma once
 #include <iostream>
 #include <string>
-#pragma once
 using namespace std;
 
 

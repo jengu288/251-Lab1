@@ -5,10 +5,8 @@
 #include <sstream> //formatted string processing
 #include <cstdlib> //atof and atoi
 #include <string>
-#include <sources/includes/DomesticStudent.h>
-#include <sources/includes/InternationalStudent.h>
-#include <sources/includes/ToeflScore.h>
-#include "../includes/student.h"
+#include "includes/InternationalStudent.h"
+#include "includes/DomesticStudent.h"
 //#pragma  once
 
 int main(){

@@ -2,10 +2,6 @@
 // Created by Aliyah N on 2019-09-23.
 //
 
-#ifndef LAB1_DOWNLOAD_INTERNATIONALSTUDENT_H
-#define LAB1_DOWNLOAD_INTERNATIONALSTUDENT_H
-
-#endif //LAB1_DOWNLOAD_INTERNATIONALSTUDENT_H
 #pragma once
 
 #include "student.h"
