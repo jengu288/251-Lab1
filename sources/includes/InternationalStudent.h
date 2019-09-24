@@ -9,6 +9,7 @@
 #pragma once
 
 #include "student.h"
+#include "ToeflScore.h"
 
 class InternationalStudent : public Student
 {

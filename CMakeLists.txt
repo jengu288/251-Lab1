@@ -7,7 +7,7 @@ include_directories(.)
 
 
 
-include_directories(includes)
+include_directories(sources/includes)
 
 add_subdirectory(sources)
 

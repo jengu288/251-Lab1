@@ -5,8 +5,11 @@
 #include <sstream> //formatted string processing
 #include <cstdlib> //atof and atoi
 #include <string>
+#include <sources/includes/DomesticStudent.h>
+#include <sources/includes/InternationalStudent.h>
+#include <sources/includes/ToeflScore.h>
 #include "../includes/student.h"
-
+//#pragma  once
 
 int main(){
     //Read the domestic-stu.txt file and exit if failed

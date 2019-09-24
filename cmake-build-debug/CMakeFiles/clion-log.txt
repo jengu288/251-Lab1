@@ -1,16 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/Aliyah/CLionProjects/251-Lab1-Conor
 -- Configuring done
-CMake Error at sources/CMakeLists.txt:1 (add_executable):
-  Cannot find source file:
-
-    main.cpp
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
-  .hpp .hxx .in .txx
-
-
-CMake Error at sources/CMakeLists.txt:1 (add_executable):
-  No SOURCES given to target: lab1_download
-
-
+-- Generating done
 -- Build files have been written to: /Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug

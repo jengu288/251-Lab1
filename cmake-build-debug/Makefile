@@ -110,6 +110,19 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named lab1_download
+
+# Build rule for target.
+lab1_download: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lab1_download
+.PHONY : lab1_download
+
+# fast build rule for target.
+lab1_download/fast:
+	$(MAKE) -f sources/CMakeFiles/lab1_download.dir/build.make sources/CMakeFiles/lab1_download.dir/build
+.PHONY : lab1_download/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +131,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... lab1_download"
 .PHONY : help
 
 
