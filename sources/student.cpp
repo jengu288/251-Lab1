@@ -60,22 +60,29 @@ int Student::getresearchScore(){
 
 
 //checks if the gpa is a valid value
-void Student::checkCGPA() {
+bool Student::checkCGPA(float cCgpa) {
     //TODO:Code cgpa checker, needs to be sfu 4.3 scale valid
-    if (cgpa < 0 || cgpa > 4.3)
+    if (cCgpa < 0 || cCgpa > 4.3)
     {
         cout<<"you have an invalid cgpa.";
         exit(1);
     }
+    else{
+        cgpa=cCgpa;
+    }
 }
 
 //checks if the research score has a valid value
-void Student::checkresearchScore() {
+bool Student::checkresearchScore(int CresearchScore) {
     //TODO: Code researchScore checker, needs to be 0-100 integers only
-    if (researchScore < 0 || researchScore > 100)
+    if (CresearchScore < 0 || CresearchScore > 100)
     {
         cout<<"you have an invalid research score.";
         exit(1);
+    }
+    else
+    {
+        researchScore=CresearchScore;
     }
 }
 
@@ -109,10 +116,13 @@ Student::Student(string firstName, string lastName, float cgpa, int researchScor
 
 //setCGPA function
 //should we be using different names. i feel like this gets confusing
-void Student::setCGPA()
+void Student::setCGPA(float new_cgpa)
 {
-    checkCGPA();
-    cgpa=cgpa;
+    if (checkCGPA(new_cgpa))
+    {
+        cgpa=new_cgpa;
+    }
+
 }
 
 //---------------------------------------------------------
@@ -124,11 +134,13 @@ void Student::setCGPA()
 //Outputs: void
 //Purpose:sets the value researchscore to researchscore
 //---------------------------------------------------------
-//same concern about confusion with the assignment?????
-void Student::setResearchScore()
-{
-    checkresearchScore();
-    researchScore=researchScore;
+
+void Student::setResearchScore(int new_researchScore) {
+    if (checkresearchScore(new_researchScore))
+    {
+        researchScore = new_researchScore;
+    }
+
 }
 
 

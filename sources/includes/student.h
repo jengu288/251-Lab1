@@ -19,11 +19,11 @@ public:
     float getCGPA();
     int getresearchScore();
     //added setCGPA and setReasearchScore
-    void setCGPA();
-    void setResearchScore();
+    void setCGPA(float cgpa);
+    void setResearchScore(int researchScore);
 private:
-    void checkCGPA();
-    void checkresearchScore();
+    bool checkCGPA(float cCgpa);
+    bool checkresearchScore(int CresearchScore);
 
     string firstName;
     string lastName;
