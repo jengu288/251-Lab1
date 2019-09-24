@@ -3,7 +3,8 @@
 //
 #include "includes/InternationalStudent.h"
 
-InternationalStudent::InternationalStudent(string firstName, string lastName, float cgpa, int reasearchScore,
+InternationalStudent::InternationalStudent(string firstName, string lastName, float cgpa,
+                                           int reasearchScore,
                                            string country, ToeflScore Toefl) {
 
 }
@@ -29,4 +30,11 @@ string InternationalStudent::getCountry(){
     return country;
 }
 
+void InternationalStudent::setCountry(string newCountry)
+{
+    country=newCountry;
+};
 
+void InternationalStudent::setToefl (ToeflScore newToeflScore){
+    Toefl=newToeflScore;
+}

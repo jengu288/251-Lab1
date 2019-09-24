@@ -36,6 +36,8 @@ void ToeflScore::checkScore(){
         cout<<"You have an invalid parameter for your Toefl Score.";
         exit(1);
     }
+
+
 }
 //default constructor
 ToeflScore::ToeflScore() {

@@ -4,7 +4,8 @@
 
 #include "includes/DomesticStudent.h"
 
-DomesticStudent::DomesticStudent(string firstName, string lastName, float cgpa, int researchScore, string province)
+DomesticStudent::DomesticStudent(string firstName, string lastName, float cgpa, int researchScore,
+                                 string province)
         :Student(firstName, lastName, cgpa, researchScore)
 {
     province = province;

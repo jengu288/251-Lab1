@@ -17,6 +17,8 @@ public:
                          string country, ToeflScore Toefl);
     string getCountry();
     ToeflScore getToefl();
+    void setCountry(string newCountry);
+    void setToefl (ToeflScore newToeflScore);
 private:
     string country;
     ToeflScore Toefl;

@@ -10,7 +10,8 @@ public:
     //TODO: make get and set functions for domestic student members in one long thing for each
     //TODO: create input function to use in main to input students
     DomesticStudent();
-    DomesticStudent(string firstName, string lastName, float cgpa, int researchScore, string province);
+    DomesticStudent(string firstName, string lastName, float cgpa, int researchScore,
+                    string province);
     string getProvince();
 private:
     string province;
