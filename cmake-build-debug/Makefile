@@ -110,73 +110,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named lab1_download
-
-# Build rule for target.
-lab1_download: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lab1_download
-.PHONY : lab1_download
-
-# fast build rule for target.
-lab1_download/fast:
-	$(MAKE) -f CMakeFiles/lab1_download.dir/build.make CMakeFiles/lab1_download.dir/build
-.PHONY : lab1_download/fast
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/lab1_download.dir/build.make CMakeFiles/lab1_download.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/lab1_download.dir/build.make CMakeFiles/lab1_download.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/lab1_download.dir/build.make CMakeFiles/lab1_download.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-student.o: student.cpp.o
-
-.PHONY : student.o
-
-# target to build an object file
-student.cpp.o:
-	$(MAKE) -f CMakeFiles/lab1_download.dir/build.make CMakeFiles/lab1_download.dir/student.cpp.o
-.PHONY : student.cpp.o
-
-student.i: student.cpp.i
-
-.PHONY : student.i
-
-# target to preprocess a source file
-student.cpp.i:
-	$(MAKE) -f CMakeFiles/lab1_download.dir/build.make CMakeFiles/lab1_download.dir/student.cpp.i
-.PHONY : student.cpp.i
-
-student.s: student.cpp.s
-
-.PHONY : student.s
-
-# target to generate assembly for a file
-student.cpp.s:
-	$(MAKE) -f CMakeFiles/lab1_download.dir/build.make CMakeFiles/lab1_download.dir/student.cpp.s
-.PHONY : student.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -185,13 +118,6 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... lab1_download"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... student.o"
-	@echo "... student.i"
-	@echo "... student.s"
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 //student.cpp to implement classes
-#include "student.hpp"
+#include "includes/student.h"
 #include <iostream>
 #include <string>
 using namespace std;
@@ -56,19 +56,6 @@ int Student::getresearchScore(){
     return researchScore;
 }
 
-//---------------------------------------------------------
-//Function Name: getProvince()
-//Author: Jennifer Gu
-//Date Created: September 19, 2019
-//Date Update:
-//Inputs: object of class student
-//Outputs:  string province
-//Purpose: Retrieves the province member of the Domestic Student Object
-//---------------------------------------------------------
-string DomesticStudent::getProvince(){
-
-    return province;
-}
 
 //---------------------------------------------------------
 //Function Name: getCountry()
@@ -79,77 +66,38 @@ string DomesticStudent::getProvince(){
 //Outputs:  string country
 //Purpose: Retrieves the country member of the International Student Object
 //---------------------------------------------------------
-string InternationalStudent::getCountry(){
 
-    return country;
-}
-
-//---------------------------------------------------------
-//Function Name: getToefl()
-//Author: Jennifer Gu
-//Date Created: September 19, 2019
-//Date Update:
-//Inputs: object of class student
-//Outputs:  ToeflScore Toefl
-//Purpose: Retrieves the Toefl member of the International Student Object
-//---------------------------------------------------------
-ToeflScore InternationalStudent::getToefl(){
-
-    return Toefl;
-}
-
-//---------------------------------------------------------
-//Function Name: getScore()
-//Author: Jennifer Gu
-//Date Created: September 19, 2019
-//Date Update:
-//Inputs: object of class student
-//Outputs:  void
-//Purpose: Checks if Toefl Score is valid
-//---------------------------------------------------------
-void ToeflScore::checkScore(){
-    //TODO:Code ToeflScore Checker, each parameter is an int 0-30
-}
 
 void Student::checkCGPA() {
     //TODO:Code cgpa checker, needs to be sfu 4.3 scale valid
-    if (cgpa < 0 || cgpa > 4.3){
-
+    if (cgpa < 0 || cgpa > 4.3)
+    {
+        cout<<"you have an invalid cgpa.";
+        exit(1);
     }
 }
 
 
 void Student::checkresearchScore() {
     //TODO: Code researchScore checker, needs to be 0-100 integers only
-    if (researchScore < 0 || researchScore > 100){
-
+    if (researchScore < 0 || researchScore > 100)
+    {
+        cout<<"you have an invalid research score.";
+        exit(1);
     }
 }
 //Default Constructors
-ToeflScore::ToeflScore() {
 
-}
 
 Student::Student() {
 
 }
 
-DomesticStudent::DomesticStudent()
-:Student()
-{
 
-}
 
-InternationalStudent::InternationalStudent()
-:Student()
-{
-
-}
 
 //TODO:Constructors
-ToeflScore::ToeflScore(int reading, int listening, int speaking, int writing){
 
-}
 
 Student::Student(string firstName, string lastName, float cgpa, int researchScore) {
     firstName = firstName;
@@ -158,17 +106,9 @@ Student::Student(string firstName, string lastName, float cgpa, int researchScor
     researchScore = researchScore;
 }
 
-DomesticStudent::DomesticStudent(string firstName, string lastName, float cgpa, int researchScore, string province)
-                :Student(firstName, lastName, cgpa, researchScore)
-{
-    province = province;
 
-}
 
-InternationalStudent::InternationalStudent(string firstName, string lastName, float cgpa, int reasearchScore,
-                                           string country, ToeflScore Toefl) {
 
-}
 
 //Conor does not know what the hell was wrong, as everything worked perfectly fine without any problems
 //nothing to install. This was useless.

@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/Aliyah/CLionProjects/251-Lab1-Conor/. 
+CXX_INCLUDES = -I/Users/Aliyah/CLionProjects/251-Lab1-Conor/. -I/Users/Aliyah/CLionProjects/251-Lab1-Conor/includes 
 

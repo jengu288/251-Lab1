@@ -1,3 +1,4 @@
 /Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug/CMakeFiles/lab1_download.dir
+/Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug/sources/CMakeFiles/rebuild_cache.dir
+/Users/Aliyah/CLionProjects/251-Lab1-Conor/cmake-build-debug/sources/CMakeFiles/edit_cache.dir

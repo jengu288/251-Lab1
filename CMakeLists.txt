@@ -5,6 +5,9 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(lab1_download
-        main.cpp
-        student.cpp)
+
+
+include_directories(includes)
+
+add_subdirectory(sources)
+

@@ -37,6 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.14.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeSystem.cmake"
+  "../sources/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -48,9 +49,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "sources/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/lab1_download.dir/DependInfo.cmake"
   )
